@@ -178,7 +178,7 @@ function uniquifyArray(array) {
      if (!uniqueArray.includes(word)) {
        uniqueArray.push(word);
      }
-   });
+   })
    // Return new array with the words that are not duplicated
    console.table(uniqueArray);
    return uniqueArray;
@@ -198,9 +198,6 @@ function doesWordExist(array,word) {
   return array.includes(word);
 }
 doesWordExist(wordsFind, "truth");
-
-
-
 
 // Iteration #7: Count repetition
 const wordsCount = [
@@ -226,8 +223,7 @@ function howManyTimes(wordsCount) {
     }
 }
 }
-console.log(wordCountMap);
-{
+console.log (wordsCount);{
   machine: 1
   matter: 4
   subset: 1
